@@ -1,0 +1,329 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.beij {
+	width: 100%;
+	/* height: 800px; */
+	background: url("../img/timg (1).png");
+	background-size: 100% 100%;
+}
+
+/* 头像 */
+.tou {
+	width: 250px;
+	height: 300px;
+	background-color: red;
+}
+
+.toux {
+	height: 385px;
+}
+
+.tou {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rosybrown;
+	margin: 0 auto;
+	position: relative;
+	top: 120px;
+	background: url("../img/tou.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.tou_1 {
+	width: 200px;
+	height: 50px;
+	/* background-color: red; */
+	margin: 0 auto;
+	position: relative;
+	top: 125px;
+	text-align: center;
+}
+.tou:hover{
+	transform: scale(1.1);
+}
+.tou{
+	transition: all 1.2s;
+	cursor: pointer;
+}
+a {
+	font-family: "苹方";
+	text-decoration: none;
+}
+
+.tou_1 a {
+	font-size: 20px;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+/* 导航 */
+.navbar-default {
+	background-color: #d7e3e8;
+	border-color: #d7e3e8;
+}
+
+.navbar-default .navbar-brand:hover {
+	background-color: #e8dedf;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #797373;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #797373;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #e8dedf;
+}
+
+/* 基本资料 */
+.data {
+	/* height: 230px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.data_1 {
+	height: 28px;
+	text-align: center;
+	position: relative;
+	bottom: 17px;
+}
+
+.data_1 a {
+	font-size: 20px;
+	color: #928b8b;
+	position: relative;
+	text-decoration: none;
+	font-family: "苹方";
+}
+
+.data_2 {
+	/* height: 180px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+
+.data_3:hover{
+	transform: scale(1.1);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);
+	border-radius: 15%;
+}
+.data_3{
+	transition: all 1.2s;
+	cursor: pointer;
+}
+.data_3 a {
+	text-decoration: noen;
+}
+
+.data_img {
+	width: 80px;
+	height: 80px;
+	background-color: #e2e3e5;
+	margin: 0 auto;
+	border-radius: 50px;
+}
+
+.data_img img {
+	position: relative;
+	right: 10px;
+	bottom: 6px;
+}
+
+.data_text {
+	/* width: 235px; */
+	/* height: 80px; */
+	text-align: center;
+}
+
+.data_text .ge {
+	font-size: 20px;
+	color: #d1c382;
+	text-decoration: none;
+}
+
+.data_text .ren {
+	color: #857f7a;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* 项目经验 */
+.jingy {
+}
+
+.xiang {
+	height: 420px;
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-top: 70px;
+}
+
+.xiang_text {
+	width: 94%;
+	height: 50px;
+	background-color: floralwhite;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.xiang_text .text {
+	font-size: 15px;
+	color: #979592;
+	text-decoration: none;
+	position: relative;
+	top: 20px;
+}
+
+.xiang_text .text_1 {
+	font-size: 15px;
+	color: #979592;
+	text-decoration: none;
+	position: relative;
+	top: 20px;
+}
+
+.xiang_text1 {
+	width: 70%;
+	/*    height: 135px; */
+	height: 100%;
+	background-color: aliceblue;
+	margin: 0 auto;
+}
+
+.xiang_1 {
+	width: 94%;
+
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.mu_1 {
+	width: 94%;
+	height: 190px;
+}
+
+.mu_1 a {
+	font-size: 20px;
+	color: #696668;
+	text-decoration: none;
+}
+
+.mu_1 .miao {
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* 专业技能 */
+.jineng {
+	height: 90%;
+}
+
+.jineng_1 {
+	height: 90%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.data_a {
+	height: 28px;
+	text-align: center;
+	position: relative;
+	bottom: 17px;
+}
+
+.data_a a {
+	font-size: 20px;
+	color: #928b8b;
+	position: relative;
+	text-decoration: none;
+	position: relative;
+	top: 40px;
+}
+
+.ji_img {
+	width: 50%;
+	text-align: center;
+
+}
+
+.ji_img img {
+	width: 60%;
+	height: 100%;
+	position: relative;
+	top: 60px;
+}
+.ji_imga{
+	width: 50%;
+}
+.ji_imga a {
+	font-size: 20px;
+	color: #696565;
+	text-decoration: none;
+	position: relative;
+	top: 80px;
+}
+
+/* 项目展示 */
+.zhans {
+	margin-top: 89px;
+}
+
+.zhanshi {
+	height: 100%;
+	/* background-color: greenyellow; */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.zhan_1 {
+	height: 100%;
+	/* background-color: violet; */
+}
+
+.zhan_1 img {
+	height: 345px;
+	width: 100%;
+}
+.zhan_1:hover{
+	transform: scale(1.1);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);
+	border-radius: 15%;
+}
+.zhanshi .zhan_1{
+	transition: all 1.2s;
+	cursor: pointer;
+}
+.zhan_img {
+	height: 30px;
+	/* background-color: khaki; */
+	text-align: center;
+}
+
+.zhan_img a {
+	text-decoration: none;
+	color: #9b9696;
+	font-size: 17px;
+}
